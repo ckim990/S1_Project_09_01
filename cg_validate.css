@@ -13,13 +13,14 @@
 
 
 /* Validation Styles */
-
+/* This effects all selected elements change their background color to a light yellow color. */
 input:focus,
 select:focus,
 textarea:focus {
     background-color: rgb(245, 245, 140);
 }
 
+/* This effects the id's of all of the different inputs and sets the backgorund color to a green color. */
 #fnBox:focus:valid,
 #lnBox:focus:valid,
 #addBox:focus:valid,
@@ -29,6 +30,7 @@ textarea:focus {
     background: rgb(220, 255, 220) url(cg_valid.png) right/contain no-repeat;
 }
 
+/* Changes the background color for selected ids */
 #fnBox:focus:invalid,
 #lnBox:focus:invalid,
 #addBox:focus:invalid,

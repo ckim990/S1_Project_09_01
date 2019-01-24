@@ -51,6 +51,7 @@
       </ul>         
    </nav>
    <section>
+      <!-- A form with input boxes labels and datalists for choosing option answers. -->
       <h1>Conference Registration Form</h1>
       <p>Required Item (*)</p>
       <form action="http://www.example.com/cg/register" method="POST">
@@ -65,7 +66,7 @@
                 <option value="Assist. Prof.">
                 <option value="Assoc. Prof.">
             </datalist>
-
+            <!-- Labels are the text above the box and input is where you would put your answer -->
             <label for="firstName">First Name*</label>
             <input type="text" id="fnBox" required>
         
@@ -80,7 +81,7 @@
 
             <label for="email">E-mail*</label>
             <input type="email" id="mailBox" required>
-
+            <!-- A pattern is used for having a format for digits -->
             <label for="phoneNumber">Phone Number</label>
             <input type="tel" id="phoneBox" name="custPhone" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required>
 
